@@ -1,0 +1,5 @@
+  209  history | tail
+  210  history | tail -n 28
+  211  history | tail -n 5 | echo > history.txt
+  212  ls
+  213  cat history.txt
