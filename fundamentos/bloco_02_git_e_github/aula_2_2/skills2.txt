@@ -6,4 +6,5 @@ JavaScript
 Python
 SQL
 CSS
+LinkedIn
 Soft Skills
