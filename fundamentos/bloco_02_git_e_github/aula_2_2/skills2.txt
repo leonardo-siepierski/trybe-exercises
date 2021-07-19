@@ -6,3 +6,4 @@ JavaScript
 Python
 SQL
 CSS
+LinkedIn
