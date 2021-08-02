@@ -163,60 +163,60 @@
 
 //exerc 11
 
-let salarioBruto = 5000;
-let aliquotaINSS;
-let aliquotaIR;
-let salarioLiquido;
-let salarioBase;
-let parcelaIR;
-let totalIR;
+// let salarioBruto = 5000;
+// let aliquotaINSS;
+// let aliquotaIR;
+// let salarioLiquido;
+// let salarioBase;
+// let parcelaIR;
+// let totalIR;
 
-if (salarioBruto <= 1556.94){
-aliquotaINSS = 0.08;
-salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
-}
-else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92) {
-aliquotaINSS = 0.09;
-salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
-}
-else if (salarioBruto > 2594.92 && salarioBruto <= 5189.82) {
-aliquotaINSS = 0.11;
-salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
-}
-else if(salarioBruto > 5189.82) {
-aliquotaINSS = 570.88;
-salarioBase = salarioBruto - aliquotaINSS;
-}
+// if (salarioBruto <= 1556.94){
+// aliquotaINSS = 0.08;
+// salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
+// }
+// else if (salarioBruto > 1556.94 && salarioBruto <= 2594.92) {
+// aliquotaINSS = 0.09;
+// salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
+// }
+// else if (salarioBruto > 2594.92 && salarioBruto <= 5189.82) {
+// aliquotaINSS = 0.11;
+// salarioBase = salarioBruto - (salarioBruto * aliquotaINSS);
+// }
+// else if(salarioBruto > 5189.82) {
+// aliquotaINSS = 570.88;
+// salarioBase = salarioBruto - aliquotaINSS;
+// }
 
-if (salarioBase <= 1903.98){
-  salarioLiquido = salarioBase;
-  console.log(salarioLiquido);
-}
-else if (salarioBase > 1903.98 && salarioBase <= 2826.65) {
-aliquotaIR = 0.075;
-parcelaIR = 142.80;
-totalIR = (salarioBase * aliquotaIR) - parcelaIR;
-salarioLiquido = salarioBase - totalIR;
-console.log(salarioLiquido);
-}
-else if (salarioBase > 2826.65 && salarioBase <= 3751.05) {
-  aliquotaIR = 0.15;
-  parcelaIR = 354.80;
-  totalIR = (salarioBase * aliquotaIR) - parcelaIR;
-  salarioLiquido = salarioBase - totalIR;
-  console.log(salarioLiquido);
-}
-else if (salarioBase > 3571.05 && salarioBase <= 4664.68) {
-  aliquotaIR = 0.225;
-  parcelaIR = 636.13;
-  totalIR = (salarioBase * aliquotaIR) - parcelaIR;
-  salarioLiquido = salarioBase - totalIR;
-  console.log(salarioLiquido);
-}
-else if (salarioBase > 4664.68) {
-  aliquotaIR = 0.275;
-  parcelaIR = 869.36;
-  totalIR = (salarioBase * aliquotaIR) - parcelaIR;
-  salarioLiquido = salarioBase - totalIR;
-  console.log(salarioLiquido);
-}
+// if (salarioBase <= 1903.98){
+//   salarioLiquido = salarioBase;
+//   console.log(salarioLiquido);
+// }
+// else if (salarioBase > 1903.98 && salarioBase <= 2826.65) {
+// aliquotaIR = 0.075;
+// parcelaIR = 142.80;
+// totalIR = (salarioBase * aliquotaIR) - parcelaIR;
+// salarioLiquido = salarioBase - totalIR;
+// console.log(salarioLiquido);
+// }
+// else if (salarioBase > 2826.65 && salarioBase <= 3751.05) {
+//   aliquotaIR = 0.15;
+//   parcelaIR = 354.80;
+//   totalIR = (salarioBase * aliquotaIR) - parcelaIR;
+//   salarioLiquido = salarioBase - totalIR;
+//   console.log(salarioLiquido);
+// }
+// else if (salarioBase > 3571.05 && salarioBase <= 4664.68) {
+//   aliquotaIR = 0.225;
+//   parcelaIR = 636.13;
+//   totalIR = (salarioBase * aliquotaIR) - parcelaIR;
+//   salarioLiquido = salarioBase - totalIR;
+//   console.log(salarioLiquido);
+// }
+// else if (salarioBase > 4664.68) {
+//   aliquotaIR = 0.275;
+//   parcelaIR = 869.36;
+//   totalIR = (salarioBase * aliquotaIR) - parcelaIR;
+//   salarioLiquido = salarioBase - totalIR;
+//   console.log(salarioLiquido);
+// }
