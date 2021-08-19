@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Curriculo</h1>
+  </header>
+  <form action="" method="GET">
+    <fieldset class="fieldset">
+      <div class="text">
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="complete-name" autocomplete="off" maxlength="40"><br>
+      </div>
+      <div class="text">
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" autocomplete="off" maxlength="50"><br>
+      </div>
+      <div class="text">
+        <label for="cpf">CPF:</label><br>
+        <input type="text" id="cpf" name="cpf" autocomplete="off" maxlength="11"><br>
+      </div>
+      <div class="text">
+        <label for="adress">Endereço:</label><br>
+        <input type="text" id="adress" name="adress" autocomplete="off" maxlength="200"><br>
+      </div>
+      <div class="text">
+        <label for="city">Cidade:</label><br>
+        <input type="text" id="city" name="city" autocomplete="off" maxlength="28"><br>
+      </div>
+      <div id="state-selector" class="text">
+        <label for="state">Estado:</label><br>
+        <select id="state" name="state"><br>
+        </select>
+      </div>
+      <div class="text">
+        <p>Tipo:</p><br>
+        <input type="radio" name="type" id="house" autocomplete="off">
+        <label for="house">Casa</label>
+        <input type="radio" name="type" id="apartament" autocomplete="off">
+        <label for="apartament">Apartamento</label><br>
+      </div>
+    </fieldset>
+  </form>
+  <fieldset class="fieldset">
+    <legend>Último cargo</legend>
+    <div class="text">
+      <label for="resume">Faça um resumo do seu curriculo</label><br>
+      <textarea name="resume" id="resume" cols="30" rows="10" maxlength="1000" placeholder="Fale sobre você..."></textarea>
+    </div>
+    <div class="text">
+      <label for="job">Cargo:</label><br>
+      <input type="text" id="job" name="job" autocomplete="off" maxlength="40"><br>
+    </div>
+    <div class="text">
+      <label for="about-job">Sobre o cargo:</label><br>
+      <input type="text" id="about-job" name="about-job" autocomplete="off" maxlength="500"><br>
+    </div>
+    <div class="text">
+      <label for="date">Data de início:</label><br>
+      <input type="text" id="date" name="date" autocomplete="off" maxlength="10" placeholder="dd/mm/aaaa"><br>
+    </div>
+  </fieldset>
+  <script src="script.js"></script>
+</body>
+
+</html>
